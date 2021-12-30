@@ -1,0 +1,53 @@
+.main-4-global 
+{   
+    display:flex;
+    max-width: 1280px;
+    margin: 100px auto;
+    column-gap: 354px;
+}
+
+.main-4-carte 
+{
+    position: relative;
+}
+
+.main-4-txt 
+{   
+    width: 515px;
+    height: 137px;
+}
+
+.main-4-txt p
+{
+    font-style: normal;
+    font-weight: Normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #6D6E71;
+}
+
+.main-4-txt h4 
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1px;
+
+
+}
+
+.img-2
+{
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    z-index: -1;
+}
+
+.img-3
+{
+    position: absolute;
+    top: 61px;
+    left: 210px;
+    z-index: -2;
+}
