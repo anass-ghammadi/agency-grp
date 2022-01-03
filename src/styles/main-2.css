@@ -41,3 +41,16 @@
     flex-direction: column;
     padding: 10px;
 }
+
+@media only screen and (max-width: 1024px)
+{
+    .container-m2
+    {
+        overflow-x: auto;
+        padding-left: 35px;
+    }
+    .container-m2::-webkit-scrollbar
+    {
+        width:0;
+    }
+}
