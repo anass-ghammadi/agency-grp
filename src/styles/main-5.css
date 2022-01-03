@@ -71,3 +71,10 @@
 .main-5-img img {
     margin-top: -35px;
 }
+
+@media only screen and (max-width: 1024px)
+{
+    .main-5-img img {
+        width: 750px;
+    }
+}
