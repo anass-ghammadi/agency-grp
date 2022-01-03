@@ -33,8 +33,7 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 1px;
-
-
+    padding : 0px;
 }
 
 .img-2
@@ -51,4 +50,19 @@
     top: 61px;
     left: 210px;
     z-index: -2;
+}
+
+.img-1
+{
+    backdrop-filter: blur(10px);
+}
+
+@media only screen and (max-width:1024px) {
+
+    .main-4-global
+    {
+        column-gap: 190px;
+        padding-right: 10px;
+    }
+
 }
