@@ -67,3 +67,29 @@
     padding: 0;
     margin: 40px 0;
 }
+
+@Media only screen and (max-width: 1024px) 
+{
+    .footer-2-global
+    {
+        padding: 0 10px;
+    }
+    .footer-2-cart-1,
+    .footer-2-cart-2
+    {
+        width: 300px;
+        height: 200px;
+    }
+    .footer-2-txt h4
+    {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .footer-2-txt
+    {
+        padding-left: 10px;
+    }
+
+
+}
