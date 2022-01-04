@@ -35,6 +35,14 @@
     display: flex;
     justify-content: center;
 }
+.nav-menu li:hover ,.nav-icon li:hover
+{
+    background-color: rgba(128, 128, 128, 0.1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    transition : all 0.2s ease-out;
+    padding: 5px;
+}
 ul 
 {
     padding: 0;
@@ -50,6 +58,7 @@ ul
 .menu a {
     color: inherit;
     display : flex;
+    padding-right: 10px;
 }
 .menu li
 {
