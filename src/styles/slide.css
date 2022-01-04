@@ -67,9 +67,10 @@
     transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
     align-items: center;
     justify-content: space-evenly;
-
-   
+    cursor: pointer;
+    
 }
+
 
 .svg
 {
@@ -83,6 +84,7 @@
     line-height: 20px;
     font-weight: 400;
     padding:0;  
+   
 }
 
 
