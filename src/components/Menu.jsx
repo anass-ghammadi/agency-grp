@@ -1,5 +1,6 @@
 import { AboutSVG, AccountSVG, ContactSVG, HomeSVG, SearchSVG, ServicesSVG } from '../assets/Svgs';
 import '../styles/menu.css';
+import { Outlet, Link } from "react-router-dom";
 function Menu() {
     return (
 
@@ -13,19 +14,19 @@ function Menu() {
                         <div className="nav-menu">
                             <ul className="menu">
                                 <li>
-                                    <a href="#"><div className="icone"><HomeSVG /></div>Accueil</a>
+                                <Link to="/"><a><div className="icone"><HomeSVG /></div>Accueil</a></Link >
 
                                 </li>
                                 <li>
-                                    <a href="#"><div className="icone"><ServicesSVG /></div> Services</a>
+                                    <Link to="/services"><a><div className="icone"><ServicesSVG /></div> Services</a></Link >
 
                                 </li>
                                 <li>
-                                    <a href="#"><div className="icone"><AboutSVG /></div>About</a>
+                                    <Link to="/About"><a><div className="icone"><AboutSVG /></div>About</a></Link >
 
                                 </li>
                                 <li>
-                                    <a href="#"><div className="icone"><ContactSVG /></div>Contact</a>
+                                    <Link to="/contact"><a><div className="icone"><ContactSVG /></div>Contact</a></Link>
 
                                 </li>
                             </ul>
