@@ -30,20 +30,18 @@ function Menu() {
                                 </li>
                             </ul>
                         </div>
-                        <div>
-                            <ul className="nav-icon">
-                                <div>
-                                    <li>
-                                        <SearchSVG />
-                                    </li>
-                                </div>
-                                <div>
-                                    <li>
-                                        <AccountSVG />
-                                    </li>
-                                </div>
-                            </ul>
-                        </div>
+                        <ul className="nav-icon">
+                            <div>
+                                <li>
+                                    <SearchSVG />
+                                </li>
+                            </div>
+                            <div>
+                                <li>
+                                    <AccountSVG />
+                                </li>
+                            </div>
+                        </ul>
                     </div>
                 </nav>
             </header>
