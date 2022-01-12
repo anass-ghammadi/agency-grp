@@ -7,14 +7,12 @@ import Main2 from "../components/main-2"
 import Main3 from "../components/main-3"
 import Main4 from "../components/main-4"
 import Main5 from "../components/main-5"
-import Menu from "../components/Menu"
 import HeroSection from "../components/molecule/HeroSection"
 
 const Home = () => {
     return (
         <>
-            <Menu />
-            <HeroSection />
+            <HeroSection />    
         </>
     )
 }
