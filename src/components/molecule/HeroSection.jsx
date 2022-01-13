@@ -1,8 +1,10 @@
+
 import '../../styles/slide.css';
 import Group from '../../assets/Header-Illustration.svg';
 import { PrixSVG } from '../../assets/Svgs';
 import Menu from '../Menu/Menu';
 import { useState } from 'react';
+import MenuMobile from '../Menu/menu-mobile';
 
 const Wave = () => {
     return (
@@ -29,15 +31,16 @@ function HeroSection() {
     const toggle = () => {
         setIsOpen(!isOpen)
     }
+    
     return (
         <>
             <div className="flex flex-col min-h-max w-full h-screen mx-auto body" style={{ background: "linear-gradient(291.24deg, #2A0181 45.58%, rgba(61, 2, 187, 0.69) 100%)" }}>
                 <Menu toggle={toggle} />
-
+                <MenuMobile isOpen={isOpen} toggle={toggle}  />
                 <div className="flex-1 relative overflow-hidden">
 
                     <Wave />
-                    <div className="flex flex-col md:flex-row items-center justify-center mx-auto  max-w-7xl">
+                    <div className="flex flex-row items-center justify-center mx-auto  max-w-7xl">
                         <div className=" flex flex-col   z-50">
                             <h1 className="text-5xl font-bold leading-tight text-transparent  bg-clip-text  bg-gradient-to-r from-yellow-500 via-zinc-300 to-gray-900 " >
                                 Design <br />
@@ -60,7 +63,7 @@ function HeroSection() {
                                 <p>Purchase includes access to 30+ courses,<br /> 100+ premium tutorials, 120+ hours of videos, <br />source files and certificates.</p>
                             </div>
                         </div>
-                        <div className="flex z-50">
+                        <div className="flex z-50 sm:block hidden">
                             <img className="max-h-screen  " src={Group}></img>
                         </div>
                     </div>
