@@ -5,10 +5,10 @@ function MenuMobile({ isOpen, toggle}) {
     return (
 
         <>
-            <header className="absolute z-50 left-0 right-0 bg-neutral-900/25">
-                <nav className={isOpen ? "flex flex-col w-full items-center justify-between p-8 text-white": "hidden"} onClick={toggle}>
+            <header className="absolute z-50 left-0 right-0 bg-neutral-900/25 backdrop-blur-md  ">
+                <nav className={isOpen ? "flex flex-col w-full items-center justify-between p-8 text-white ": "hidden"} onClick={toggle}>
                     <div className="">
-                        <div className=" flex flex-col items-center justify-center space-y-8">
+                        <div className=" flex flex-col items-center justify-center space-y-8  ">
                             <div className="">
                                 <ul className=" flex flex-col space-y-4 ">
                                     <li>
