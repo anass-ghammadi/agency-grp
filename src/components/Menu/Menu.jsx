@@ -17,19 +17,19 @@ function Menu({ toggle }) {
                             <div className="mr-20">
                                 <ul className=" flex flex-row space-x-8 ">
                                     <li>
-                                    <Link to="/"><a className="flex flex-row items-center justify-center"><div className="mr-1"><HomeSVG /></div>Accueil</a></Link >
+                                    <Link to="/"><a className="flex flex-row items-center justify-center hover:scale-125  duration-700 "><div className="mr-1"><HomeSVG /></div>Accueil</a></Link >
 
                                     </li>
                                     <li>
-                                        <Link to="/services"><a className="flex flex-row items-center justify-center"><div className="mr-1"><ServicesSVG /></div> Services</a></Link >
+                                        <Link to="/services"><a className="flex flex-row items-center justify-center hover:scale-125  duration-700"><div className="mr-1"><ServicesSVG /></div> Services</a></Link >
 
                                     </li>
                                     <li>
-                                        <Link to="/About"><a className="flex flex-row items-center justify-center"><div className="mr-1"><AboutSVG /></div>About</a></Link >
+                                        <Link to="/About"><a className="flex flex-row items-center justify-center hover:scale-125  duration-700"><div className="mr-1"><AboutSVG /></div>About</a></Link >
 
                                     </li>
                                     <li>
-                                        <Link to="/contact"><a className="flex flex-row items-center justify-center"><div className="mr-1"><ContactSVG /></div>Contact</a></Link>
+                                        <Link to="/contact"><a className="flex flex-row items-center justify-center hover:scale-125  duration-700"><div className="mr-1"><ContactSVG /></div>Contact</a></Link>
 
                                     </li>
                                 </ul>
@@ -37,12 +37,12 @@ function Menu({ toggle }) {
                             <div className="">
                                 <ul className="flex flex-row space-x-14">
                                     <div>
-                                        <li >
+                                        <li className="hover:scale-125  duration-700" >
                                             <SearchSVG />
                                         </li>
                                     </div>
                                     <div>
-                                        <li>
+                                        <li className="hover:scale-125  duration-700">
                                             <AccountSVG />
                                         </li>
                                     </div>
