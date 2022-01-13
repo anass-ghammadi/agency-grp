@@ -31,10 +31,10 @@ function HeroSection() {
                             <div className="text-xs text-white my-5">
                                 <p>Don’t skip design. Learn design and code,<br /> by building real apps with React and Swift.<br /> Complete courses about the best tools.</p>
                             </div>
-                            <div className="flex  items-center  cursor-pointer">
+                            <div className="flex  items-center  cursor-pointer hover:scale-125 duration-700">
                                 <button type="submit" className="submit">
                                     <div className=" flex flex-row items-center justify-center rounded-2xl drop-shadow-2xl p-1 px-4  bg-gradient-to-r from-blue-100 to-gray-300">
-                                        <PrixSVG className="svg" />
+                                        <PrixSVG  />
                                         <p className="text-normal p-2">GET PRO ACCESS <br /> <span className="text-sm ">$19 per month</span></p>
 
                                     </div>
@@ -44,8 +44,8 @@ function HeroSection() {
                                 <p>Purchase includes access to 30+ courses,<br /> 100+ premium tutorials, 120+ hours of videos, <br />source files and certificates.</p>
                             </div>
                         </div>
-                        <div className="sm:block hidden sm:w-1/2 lg:w-1/2  2xl:w-1/3">
-                            <img src={Group}></img>
+                        <div className="sm:block hidden sm:w-1/2   ">
+                            <img className="hover:scale-125  duration-700" src={Group}></img>
                         </div>
                     </div>
                 </div>
