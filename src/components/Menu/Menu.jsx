@@ -5,19 +5,19 @@ function Menu({ toggle }) {
     return (
 
         <>
-            <header className="flex max-w-screen-xl mx-auto absolute  left-0 right-0 z-50">
-                <nav className="flex flex-row w-full items-center justify-between p-8 text-white ">
-                     
+            <header className="flex max-w-screen-xl mx-auto w-full">
+                <nav className="flex flex-row w-full items-center  text-white justify-between p-8  ">
+
                     <div className="text-2xl font-bold">
                         <a href="#">LOGO</a>
                     </div>
-                    
+
                     <div className="md:block hidden ">
                         <div className=" flex flex-row items-center justify-center">
                             <div className="mr-20">
                                 <ul className=" flex flex-row space-x-8 ">
                                     <li>
-                                    <Link to="/"><a className="flex flex-row items-center justify-center hover:scale-125  duration-700 "><div className="mr-1"><HomeSVG /></div>Accueil</a></Link >
+                                        <Link to="/"><a className="flex flex-row items-center justify-center hover:scale-125  duration-700 "><div className="mr-1"><HomeSVG /></div>Accueil</a></Link >
 
                                     </li>
                                     <li>
