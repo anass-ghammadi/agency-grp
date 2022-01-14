@@ -41,7 +41,7 @@ function HeroSection() {
 
                     <Wave />
                     <div className="flex sm:flex-row flex-col items-center justify-between mx-auto  max-w-7xl h-full min-h">
-                        <div className=" flex flex-col   z-50">
+                        <div className=" flex flex-col   z-30">
                             <h1 className="text-5xl font-bold leading-tight text-transparent  bg-clip-text  bg-gradient-to-r from-yellow-500 via-zinc-300 to-gray-900 " >
                                 Design <br />
                                 and code<br />
@@ -63,7 +63,7 @@ function HeroSection() {
                                 <p>Purchase includes access to 30+ courses,<br /> 100+ premium tutorials, 120+ hours of videos, <br />source files and certificates.</p>
                             </div>
                         </div>
-                        <div className="flex z-50 justify-end ">
+                        <div className="flex z-30 justify-end ">
                             <img className=" w-10/12 transform -translate-x-3 sm:translate-x-10" src={Group}></img>
                         </div>
                     </div>
