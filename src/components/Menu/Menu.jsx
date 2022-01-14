@@ -5,8 +5,8 @@ function Menu({ toggle }) {
     return (
 
         <>
-            <header className="flex max-w-7xl mx-auto w-full">
-                <nav className="flex flex-row w-full items-center  text-white justify-between py-8 px-4">
+            <header className="flex max-w-screen-xl mx-auto w-full">
+                <nav className="flex flex-row w-full items-center  text-white justify-between p-8  ">
 
                     <div className="text-2xl font-bold">
                         <a href="#">LOGO</a>

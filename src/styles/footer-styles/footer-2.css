@@ -1,0 +1,95 @@
+.footer-2-global
+{
+    display:flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin : 0 auto;
+}
+
+.footer-2-cart
+{
+    display:flex;
+    column-gap:20px;
+}
+
+.footer-2-cart-1,
+.footer-2-cart-2
+{
+    width: 324px;
+    height: 213px;
+    background: rgba(15, 14, 71, 0.55);
+    box-shadow: 0px 0px 0px 0.5px rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+}
+
+.footer-2-cart-1 h5,
+.footer-2-cart-2 h5
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1px;
+    
+}
+
+.footer-2-cart-1 p, 
+.footer-2-cart-2 p 
+{  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+.footer-2-txt {
+    width: 500px;
+    height: 164px;
+}
+
+.footer-2-txt p  
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6D6E71; 
+}
+
+.footer-2-txt h4
+{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height:0;
+    padding: 0;
+    margin: 40px 0;
+}
+
+@Media only screen and (max-width: 1024px) 
+{
+    .footer-2-global
+    {
+        padding: 0 10px;
+    }
+    .footer-2-cart-1,
+    .footer-2-cart-2
+    {
+        width: 300px;
+        height: 200px;
+    }
+    .footer-2-txt h4
+    {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .footer-2-txt
+    {
+        padding-left: 10px;
+    }
+
+
+}
