@@ -41,7 +41,7 @@ function HeroSection() {
 
                     <Wave />
                     <div className="flex sm:flex-row flex-col items-center justify-between mx-auto  max-w-7xl h-full min-h">
-                        <div className=" flex flex-col   z-30">
+                        <div className=" flex flex-col z-30 container">
                             <h1 className="text-5xl font-bold leading-tight text-transparent  bg-clip-text  bg-gradient-to-r from-yellow-500 via-zinc-300 to-gray-900 " >
                                 Design <br />
                                 and code<br />
