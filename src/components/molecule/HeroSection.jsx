@@ -40,8 +40,13 @@ function HeroSection() {
                 <div className="flex-1 relative overflow-hidden">
 
                     <Wave />
+<<<<<<< HEAD
                     <div className="flex flex-row items-center justify-center mx-auto  max-w-7xl">
                         <div className=" flex flex-col   z-50">
+=======
+                    <div className="flex sm:flex-row flex-col items-center justify-between mx-auto  max-w-7xl h-full min-h">
+                        <div className=" flex flex-col   z-30">
+>>>>>>> 8cc9a1fbec6fd9a24a064d67c1c8565ec19a3a58
                             <h1 className="text-5xl font-bold leading-tight text-transparent  bg-clip-text  bg-gradient-to-r from-yellow-500 via-zinc-300 to-gray-900 " >
                                 Design <br />
                                 and code<br />
@@ -63,8 +68,13 @@ function HeroSection() {
                                 <p>Purchase includes access to 30+ courses,<br /> 100+ premium tutorials, 120+ hours of videos, <br />source files and certificates.</p>
                             </div>
                         </div>
+<<<<<<< HEAD
                         <div className="flex z-50 sm:block hidden">
                             <img className="max-h-screen  " src={Group}></img>
+=======
+                        <div className="flex z-30 justify-end ">
+                            <img className=" w-10/12 transform -translate-x-3 sm:translate-x-10" src={Group}></img>
+>>>>>>> 8cc9a1fbec6fd9a24a064d67c1c8565ec19a3a58
                         </div>
                     </div>
                 </div>
