@@ -30,13 +30,13 @@ function Main1 () {
                     
                 </div>
             </div>
-            <div className="flex flex-row  items-center  space-x-12 overflow-x-scroll lg:justify-center px-6 lg:overflow-x-hidden ">
+            <div className="flex flex-row  items-center  space-x-12  lg:justify-center px-6  section-scroll py-10">
                     <div className="bg-white rounded-3xl flex flex-row w-96 h-80 p-3 drop-shadow-lg space-x-2 ">
                         <div className=" w-52">
                             <h3 className="text-lg font-medium">Title ipsum</h3>
                             <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum d</p>
                         </div>
-                        <div className="flex flex-col items-center justify-center rounded-2xl  drop-shadow-lg"style={{ background: "linear-gradient(185.55deg, rgba(87, 15, 141, 0.69) 3.08%, #F35BA0 92.41%)" }}>
+                        <div className="flex flex-col items-center justify-center rounded-2xl hover:scale-105  duration-700 drop-shadow-lg"style={{ background: "linear-gradient(185.55deg, rgba(87, 15, 141, 0.69) 3.08%, #F35BA0 92.41%)" }}>
                                 
                                 <div className="absolute right-2 top-2 ">
                                     <img className="w-8" src={IconS}></img>
@@ -55,7 +55,7 @@ function Main1 () {
                         </div>
                     </div>
                     <div className="bg-white rounded-3xl flex flex-row w-96 h-80 p-3 drop-shadow-lg space-x-2">
-                        <div className="flex flex-col items-center justify-center rounded-2xl  drop-shadow-lg"style={{ background: "linear-gradient(200.41deg, #4316DB 2.46%, #9076E7 94.91%)" }}>
+                        <div className="flex flex-col items-center justify-center rounded-2xl hover:scale-105  duration-700  drop-shadow-lg"style={{ background: "linear-gradient(200.41deg, #4316DB 2.46%, #9076E7 94.91%)" }}>
                                 <div className="absolute right-2 top-2">
                                     <img className="w-8" src={Reactlogo} ></img>
                                 </div>
