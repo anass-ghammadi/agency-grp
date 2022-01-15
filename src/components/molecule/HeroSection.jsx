@@ -37,10 +37,10 @@ function HeroSection() {
             <div className="flex flex-col min-h-max w-full h-screen mx-auto body  min-h" style={{ background: "linear-gradient(291.24deg, #2A0181 45.58%, rgba(61, 2, 187, 0.69) 100%)" }}>
                 <Menu toggle={toggle} />
                 <MenuMobile isOpen={isOpen} toggle={toggle} />
-                <div className="flex-1 relative overflow-hidden px-4">
+                <div className="flex-1 relative overflow-hidden px-10 lg:px-20 xl:px-40">
 
                     <Wave />
-                    <div className="flex sm:flex-row flex-col items-center justify-between mx-auto  max-w-7xl h-full min-h">
+                    <div className="flex sm:flex-row flex-col items-center justify-between mx-auto  max-w-7xl h-full ">
                         <div className=" flex flex-col z-30 container">
                             <h1 className="text-5xl font-bold leading-tight text-transparent  bg-clip-text  bg-gradient-to-r from-yellow-500 via-zinc-300 to-gray-900 " >
                                 Design <br />
@@ -63,8 +63,8 @@ function HeroSection() {
                                 <p>Purchase includes access to 30+ courses,<br /> 100+ premium tutorials, 120+ hours of videos, <br />source files and certificates.</p>
                             </div>
                         </div>
-                        <div className="flex z-30 justify-end ">
-                            <img className=" w-10/12 transform -translate-x-3 sm:translate-x-10" src={Group}></img>
+                        <div className="sm:block hidden flex z-30 justify-end ">
+                            <img className=" w-max transform -translate-x-3 sm:translate-x-10 xl:translate-x-0" src={Group}></img>
                         </div>
                     </div>
                 </div>
