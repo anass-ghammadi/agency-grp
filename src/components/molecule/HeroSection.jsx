@@ -50,7 +50,7 @@ function HeroSection() {
                             <div className="text-xs text-white my-5">
                                 <p>Don’t skip design. Learn design and code,<br /> by building real apps with React and Swift.<br /> Complete courses about the best tools.</p>
                             </div>
-                            <div className="flex  items-center  cursor-pointer hover:scale-125 duration-700">
+                            <div className="flex  items-center  cursor-pointer hover:scale-110 duration-700">
                                 <button type="submit" className="submit">
                                     <div className=" flex flex-row items-center justify-center rounded-2xl drop-shadow-2xl p-1 px-4  bg-gradient-to-r from-blue-100 to-gray-300">
                                         <PrixSVG />
@@ -63,7 +63,7 @@ function HeroSection() {
                                 <p>Purchase includes access to 30+ courses,<br /> 100+ premium tutorials, 120+ hours of videos, <br />source files and certificates.</p>
                             </div>
                         </div>
-                        <div className="sm:block hidden flex z-30 justify-end ">
+                        <div className="sm:block hidden  z-30 justify-end ">
                             <img className=" w-max transform -translate-x-3 sm:translate-x-10 xl:translate-x-0" src={Group}></img>
                         </div>
                     </div>
