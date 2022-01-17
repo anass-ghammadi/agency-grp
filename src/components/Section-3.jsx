@@ -10,8 +10,8 @@ function Main3() {
                     <p className="">Once you’ve completed the courses, learn from our quick design and code tutorials to strengthen your knowledge</p>
 
                 </div>
-                <div className="flex flex-col lg:flex-row">
-                    <div className=" flex items-center justify-center p-12 ">
+                <div className="flex flex-col lg:flex-row space-y-24 lg:space-x-20 lg:space-y-0">
+                    <div className=" flex items-center justify-center  ">
                         <div className="flex relative top-8 w-64  right-[15px] h-[265px] drop-shadow-2xl  rounded-b-3xl skew-y-6" style={{ background: "linear-gradient(180deg, rgba(64, 141, 213, 0.37) 17.9%, #630B8C 100%)" }}></div>
                         <div className=" absolute flex flex-col justify-center   w-72 h-[300px] p-5 backdrop-blur-xl bg-white/30 rounded-b-3xl rounded-tr-3xl">
 
@@ -23,7 +23,7 @@ function Main3() {
 
                     </div>
 
-                    <div className=" flex items-center justify-center p-12">
+                    <div className=" flex items-center justify-center ">
                         <div className="flex relative top-8 w-64  right-[15px] h-[265px] drop-shadow-2xl  rounded-b-3xl skew-y-6" style={{ background: "linear-gradient(180deg, #048BD7 0%, rgba(255, 0, 0, 0.53) 81.77%)" }}></div>
                         <div className="absolute flex flex-col justify-center   w-72 h-[300px] p-5 backdrop-blur-xl bg-white/30 rounded-b-3xl rounded-tr-3xl">
                             <img className="w-12 absolute top-3 right-3 " src={Reactlogo}></img>
