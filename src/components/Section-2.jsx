@@ -9,8 +9,8 @@ import Etoile from '../assets/etoile.svg'
 function Main2() {
     return (
         <>
-            <div className="  flex flex-row items-center  py-10 space-x-6 overflow-x-scroll px-6 lg:justify-between  section-scroll ">
-                <div className="relative flex flex-col justify-center items-center rounded-3xl min-w-[200px] lg:w-52 h-[21rem] drop-shadow-lg hover:scale-110  duration-700 " style={{ background: "linear-gradient(185.55deg, rgba(141, 23, 15, 0.49) 3.08%, #640685 80.27%)" }}>
+            <div className="  flex flex-row items-center  py-10 space-x-6 overflow-x-scroll px-6 lg:justify-center  section-scroll ">
+                <div className="relative flex flex-col justify-center items-center rounded-3xl min-w-[200px] lg:w-56 h-[21rem] drop-shadow-lg hover:scale-110  duration-700 " style={{ background: "linear-gradient(185.55deg, rgba(141, 23, 15, 0.49) 3.08%, #640685 80.27%)" }}>
 
                     <div className="absolute top-3 right-3">
                         <img className="w-8" src={Reactlogo} ></img>
@@ -25,7 +25,7 @@ function Main2() {
                     </div>
                 </div>
 
-                <div className=" relative flex flex-col justify-center items-center rounded-3xl min-w-[200px] hover:scale-110  duration-700 lg:w-52 h-[21rem] drop-shadow-lg " style={{ background: "linear-gradient(201.27deg, rgba(87, 15, 141, 0.69) 2.14%, rgba(98, 14, 138, 0.713396) 33.33%, #E80069 82.13%)" }}>
+                <div className=" relative flex flex-col justify-center items-center rounded-3xl min-w-[200px] hover:scale-110  duration-700 lg:w-56 h-[21rem] drop-shadow-lg " style={{ background: "linear-gradient(201.27deg, rgba(87, 15, 141, 0.69) 2.14%, rgba(98, 14, 138, 0.713396) 33.33%, #E80069 82.13%)" }}>
 
                     <div className="">
                         <img src={Image2}></img>
@@ -39,7 +39,7 @@ function Main2() {
                     </div>
                 </div>
 
-                <div className=" relative flex flex-col justify-center items-center rounded-3xl min-w-[200px] hover:scale-110  duration-700 lg:w-52 h-[21rem] drop-shadow-lg  " style={{ background: "linear-gradient(185.55deg, #7453E3 3.08%, #18204D 92.41%)" }}>
+                <div className=" relative flex flex-col justify-center items-center rounded-3xl min-w-[200px] hover:scale-110  duration-700 lg:w-56 h-[21rem] drop-shadow-lg  " style={{ background: "linear-gradient(185.55deg, #7453E3 3.08%, #18204D 92.41%)" }}>
 
                     <div className="content-img">
                         <img src={Image3}></img>
@@ -53,7 +53,7 @@ function Main2() {
                     </div>
                 </div>
 
-                <div className=" relative flex flex-col justify-center items-center rounded-3xl min-w-[200px] hover:scale-110  duration-700 lg:w-52 h-[21rem] drop-shadow-lg " style={{ background: "linear-gradient(185.55deg, rgba(87, 15, 141, 0.69) 3.08%, #F35BA0 92.41%)" }}>
+                <div className=" relative flex flex-col justify-center items-center rounded-3xl min-w-[200px] hover:scale-110  duration-700 lg:w-56 h-[21rem] drop-shadow-lg " style={{ background: "linear-gradient(185.55deg, rgba(87, 15, 141, 0.69) 3.08%, #F35BA0 92.41%)" }}>
 
                     <div className="absolute top-3 right-3">
                         <img className="w-8 " src={Reactlogo} ></img>
