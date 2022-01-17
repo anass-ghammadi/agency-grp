@@ -9,7 +9,7 @@ function Footer1 ()
                     <h4 className="text-2xl font-bold">Get discounts</h4>
                     <p className="text-center lg:text-left lg:w-72">We’ve partnered with the biggest design tools on the market to help you get started.</p>
                 </div>
-                <div className="flex flex-wrap  items-center justify-center ">
+                <div className="flex flex-wrap  items-center justify-center">
                     <Discounts />
                     <Discounts />
                     <Discounts />
