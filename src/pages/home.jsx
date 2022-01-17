@@ -6,6 +6,10 @@ import Section3 from "../components/Section-3"
 import Section4 from "../components/Section-4"
 import Section5 from "../components/Section-5"
 import Footer1 from "../components/footer/footer-1"
+import Footer2 from "../components/footer/footer-2"
+import Footer3 from "../components/footer/footer-3"
+import Footer4 from "../components/footer/footer-4"
+
 
 
 const Home = () => {
@@ -19,8 +23,10 @@ const Home = () => {
                 <Section4 />
                 <Section5 />
                 <Footer1 />
+                <Footer2 />  
+                <Footer3 />
             </DefaultLayout>
-            
+            <Footer4 />
         </>
     )
 }
