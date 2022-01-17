@@ -7,11 +7,11 @@ import Carte3 from '../components/molecule/atoms/Carte-3'
 function Main4() {
     return (
         <>
-            <div className="flex flex-col justify-between sm:flex-row py-32">
+            <div className="flex flex-col justify-center lg:justify-between lg:flex-row py-32">
                 <div className="max-w-2xl flex relative hover:scale-110  duration-700">
-                    <div className=" absolute top-20 left-32 z-0 sm:block hidden backdrop-blur-sm hover:scale-110  duration-700"><Carte3 /></div>
-                    <div className=" absolute top-10 left-16 z-10 sm:block hidden backdrop-blur-sm hover:scale-110  duration-700"><Carte2 /></div>
-                    <div className=" sm:absolute z-20 backdrop-blur-sm hover:scale-110  duration-700"><Carte1 /></div>
+                    <div className=" absolute top-20 left-32 z-0 lg:block hidden backdrop-blur-sm hover:scale-110  duration-700"><Carte3 /></div>
+                    <div className=" absolute top-10 left-16 z-10 lg:block hidden backdrop-blur-sm hover:scale-110  duration-700"><Carte2 /></div>
+                    <div className=" sm:absolute  z-20 backdrop-blur-sm hover:scale-110  duration-700"><Carte1 /></div>
                 </div>
 
                 <div className="flex flex-col flex-1 justify-center space-y-2 p-5 container max-w-xl">
