@@ -15,7 +15,7 @@ function Main1() {
             <div className="flex flex-col items-center justify-center py-20 md:flex-row md:items-end md:space-x-4 lg:space-x-24 xl:space-x-38">
                 <div className=" flex flex-col space-y-3 w-80 py-5 md:py-0 ">
                     <p className="text-gray-400 text-xs text-center md:text-left">120 HOURS OF COURSES</p>
-                    <h2 className="text-lg font-medium text-center md:text-left">Learn the best tools and platforms</h2>
+                    <h2 className="text-2xl font-medium text-center md:text-left">Learn the best tools and platforms</h2>
                     <p className="text-center md:text-left">We focus on industry leading platforms so thatyou can be prepared for your next job. Then we teach all we can about them.</p>
                 </div>
                 <div className="flex flex-row items-center justify-center flex-start space-x-4  ml-0">
