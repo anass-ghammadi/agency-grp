@@ -1,27 +1,20 @@
-import '../../styles/footer-styles/footer-2.css';
-import Img from '../../assets/Roy1.png';
+import Tems from "../molecule/atoms/Carte-teams"
 
 function Footer2 ()
 {
     return (
         <>
-            <div className="footer-2-global">
+            <div className="flex flex-col-reverse items-center justify-center xl:flex-row py-36 xl:items-start">
                 <div className="footer-2-cart">
-                    <div className="footer-2-cart-1">
-                        <img src={Img}/>
-                        <h5>Roy van Rooijen</h5>
-                        <p>Design+Code 1 got me fully into using Sketch and I’m amped to discover what’s new in this sequel. Thanks so much for creating it and keep up the great work!</p>
-                    </div>
-                    <div className="footer-2-cart-2">
-                    <img src={Img}/>
-                        <h5>Roy van Rooijen</h5>
-                        <p>Design+Code 1 got me fully into using Sketch and I’m amped to discover what’s new in this sequel. Thanks so much for creating it and keep up the great work!</p>
+                    <div className="flex flex-col items-center justify-center lg:flex-row">
+                       <Tems />
+                       <Tems /> 
                     </div>
                 </div>
-                <div className="footer-2-txt">
-                    <p>TRUSTED BY TEAMS</p>
-                    <h4>80,000 people</h4>
-                    <p>Many startups look for designers who code and developers who design. They use our courses to help train new hires and expand skill sets.</p>
+                <div className="flex flex-col itmes-center justify-center space-y-4 p-4">
+                    <p className="text-center text-sm text-gray-400 xl:text-left">TRUSTED BY TEAMS</p>
+                    <h4 className="text-center text-3xl font-extrabold xl:text-left">80,000 people</h4>
+                    <p className="text-center md:w-96 xl:text-left">Many startups look for designers who code and developers who design. They use our courses to help train new hires and expand skill sets.</p>
                 </div>
             </div>
         </>
