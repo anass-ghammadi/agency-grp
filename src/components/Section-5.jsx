@@ -12,7 +12,7 @@ function Main5 ()
                     <h4 className="text-xl font-bold">Available on iPhone and iPad</h4>
                     <p className="text-center">Our iOS app has been 100% developed with SwiftUI. If you have an M1 Mac, you can even use it as a desktop app.</p>
                 </div>
-                <div className="flex items-center pt-10">
+                <div className="flex items-center pt-10 hover:scale-125  duration-700">
                     <button type="submit" className=" flex flex-row items-center justify-center  w-48 h-18 rounded-md gap-x-1 z-10" style={{background:"rgba(0, 0, 0, 0.795)"}}>
                         <img className="p-1 w-10" src={Apple}/>
                         <div className="text-white p-1 text-sm">
