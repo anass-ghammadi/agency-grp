@@ -50,8 +50,8 @@ function Menu({ toggle }) {
                             </div>
                         </div>
                     </div>
-                    <div className="md:hidden cursor-pointer  " onClick={toggle}>
-                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <div className="md:hidden cursor-pointer bg-neutral-900/25 backdrop-blur-md rounded-full p-4 hover:scale-125  duration-700 " onClick={toggle}>
+                        <svg className="w-6 h-6  " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </div>
