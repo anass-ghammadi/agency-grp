@@ -1,7 +1,23 @@
+import HeroC from "../components/molecule/Contact/Hero-c"
+import Cforme from "../components/molecule/Contact/C-forme"
+import DefaultLayout from "../components/common/Layout/DefaultLayout"
+import Footer1 from "../components/footer/footer-1"
+import Footer2 from "../components/footer/footer-2"
+import Footer3 from "../components/footer/footer-3"
+import Footer4 from "../components/footer/footer-4"
+
+
 const Contact = () => {
     return (
         <>
-           <p className=" text-2xl text-center shadow-2xl shadow-cyan-500/50 bg-cyan-500">salut ici c'est contact</p>
+            <HeroC />
+           <DefaultLayout>
+               <Cforme />
+                <Footer1 />
+               <Footer2 />
+               <Footer3 />
+           </DefaultLayout>
+           <Footer4 />
             
         </>
     )
