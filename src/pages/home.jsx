@@ -23,7 +23,7 @@ const Home = () => {
                 <Section4 />
                 <Section5 />
                 <Footer1 />
-                <Footer2 />  
+                <Footer2 />
                 <Footer3 />
             </DefaultLayout>
             <Footer4 />

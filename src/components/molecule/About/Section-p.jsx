@@ -1,5 +1,4 @@
-function SectionP ()
-{
+function SectionP() {
     return (
         <>
             <div className="flex items-center justify-center px-4 py-12">
