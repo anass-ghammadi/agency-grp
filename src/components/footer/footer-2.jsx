@@ -4,7 +4,7 @@ function Footer2 ()
 {
     return (
         <>
-            <div className="flex flex-col-reverse items-center justify-center xl:flex-row py-36 xl:items-start">
+            <div className="flex flex-col-reverse items-center justify-center xl:flex-row py-10 xl:items-start">
                 <div className="footer-2-cart">
                     <div className="flex flex-col items-center justify-center lg:flex-row">
                        <Tems />
