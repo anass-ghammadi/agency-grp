@@ -34,13 +34,13 @@ function HeroSection() {
 
     return (
         <>
-            <div className="flex flex-col w-full h-screen mx-auto   " style={{ background: "linear-gradient(291.24deg, #2A0181 45.58%, rgba(61, 2, 187, 0.69) 100%)" }}>
+            <div className="flex flex-col min-h-max w-full h-screen mx-auto body  min-h" style={{ background: "linear-gradient(291.24deg, #2A0181 45.58%, rgba(61, 2, 187, 0.69) 100%)" }}>
                 <Menu toggle={toggle} />
                 <MenuMobile isOpen={isOpen} toggle={toggle} />
                 <div className="flex-1 relative overflow-hidden px-10 lg:px-20 xl:px-40">
 
                     <Wave />
-                    <div className="flex sm:flex-row flex-col items-center justify-between mx-auto  max-w-7xl h-full overflow   -hidden">
+                    <div className="flex sm:flex-row flex-col items-center justify-between mx-auto  max-w-7xl h-full ">
                         <div className=" flex flex-col z-30 container">
                             <h1 className="text-5xl font-bold leading-tight text-transparent  bg-clip-text  bg-gradient-to-r from-yellow-500 via-zinc-300 to-gray-900 " >
                                 Design <br />

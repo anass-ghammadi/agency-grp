@@ -1,18 +1,18 @@
 import { AboutSVG, AccountSVG, ContactSVG, HomeSVG, SearchSVG, ServicesSVG } from '../../assets/Svgs';
 
 import { Outlet, Link } from "react-router-dom";
-function MenuMobile({ isOpen, toggle }) {
+function MenuMobile({ isOpen, toggle}) {
     return (
 
         <>
             <header className="absolute z-50 left-auto right-0 bg-neutral-900/25 backdrop-blur-md top-[95px] w-44 rounded-3xl mr-6 ">
-                <nav className={isOpen ? "flex flex-col w-full items-center justify-between p-8 text-white " : "hidden"} onClick={toggle}>
+                <nav className={isOpen ? "flex flex-col w-full items-center justify-between p-8 text-white ": "hidden"} onClick={toggle}>
                     <div className="">
                         <div className=" flex flex-col items-center justify-center space-y-8  ">
                             <div className="">
                                 <ul className=" flex flex-col space-y-4 ">
                                     <li>
-                                        <Link to="/"><a className="flex flex-row items-center justify-center"><div className="mr-1"><HomeSVG /></div>Accueil</a></Link >
+                                    <Link to="/"><a className="flex flex-row items-center justify-center"><div className="mr-1"><HomeSVG /></div>Accueil</a></Link >
 
                                     </li>
                                     <li>

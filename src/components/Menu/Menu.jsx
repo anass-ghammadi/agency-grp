@@ -5,7 +5,7 @@ function Menu({ toggle }) {
     return (
 
         <>
-            <header className="flex max-w-7xl mx-auto w-full z-50">
+            <header className="flex max-w-7xl mx-auto w-full">
                 <nav className="flex flex-row w-full items-center  text-white justify-between py-8 px-4">
 
                     <div className="text-2xl font-bold">
